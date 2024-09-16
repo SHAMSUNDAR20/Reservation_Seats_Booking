@@ -2,6 +2,9 @@
 coach = [['O' for _ in range(7)] for _ in range(11)]
 coach[-1] = ['O' for _ in range(3)]
 
+#Reserve Seats Function
+#This function attempts to reserve the requested number of seats. It first checks if the seats can be reserved in a single row. If not, it finds the nearest available seats and reserves them.
+
 def reserve_seats(num_seats):
     for row in range(len(coach)):
         if coach[row].count('O') >= num_seats:
@@ -21,6 +24,10 @@ def reserve_seats(num_seats):
             if len(reserved_seats) == num_seats:
                 return reserved_seats
     return None
+
+
+#Display Seats Function
+#This function displays the current status of the seats, using 'O' for available and 'X' for reserved seats.
 
 def display_seats():
     for row in coach:
