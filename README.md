@@ -13,7 +13,7 @@ This project is a simple train seat reservation system implemented in Python. It
 
 1. **Clone the Repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/SHAMSUNDAR20/Reservation_Seats_Booking/tree/main
    
    ```
    
