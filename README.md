@@ -17,6 +17,5 @@ This project is a simple train seat reservation system implemented in Python. It
    cd <repository-directory>
    ```
    
-#Run the Script
-python unstop_submission.py
+
    
